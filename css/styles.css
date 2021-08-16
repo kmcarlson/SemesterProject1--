@@ -105,7 +105,7 @@ footer {
     flex-direction: row;
     width: 100%;
     background-color: #BC9EC1;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #section-contact {
@@ -127,4 +127,25 @@ footer {
 
 .footer-text {
     color:#707070 ;
+}
+
+i {
+    margin-right: 10px;
+}
+
+#newsletter-input {
+    background-color:#FDE8E9 ;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border:none
+}
+
+#newsletter-button {
+    background-color: #FDE8E9;
+    padding:  15px 5px;
+    border:none
+}
+
+#newsletter-button:hover {
+    background-color:#596475 ;
 }
