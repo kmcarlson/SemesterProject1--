@@ -58,7 +58,7 @@ li {
 
 .shortcut-images {
     width: 100%;
-    height: 450px;
+    /* height: 450px; */
 }
 
 .header-shortcut {
@@ -70,7 +70,7 @@ li {
 
 .slogan {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .article-section {
@@ -90,7 +90,7 @@ li {
 
 .article-images {
     width: 100%;
-    height: 450px;
+    /* height: 450px; */
 }
 
 .header-article {
@@ -152,3 +152,33 @@ i {
 
 /*about*/
 
+#about-section {
+    text-align: center;
+    background-color: #E3BAC6;
+}
+
+.about-box {
+   display: flex;
+   flex-direction: row; 
+}
+
+.box {
+    width: 50%;
+    justify-content: center;
+    background-color: #E3BAC6;
+}
+
+.box-2 {
+    width: 50%;
+    justify-content: center;
+    background-color: #FDE8E9;
+}
+
+.about-opning {
+    background-color: #BC9EC1;
+    
+}
+
+.about-opning > h2 {
+    text-align: center;
+}
