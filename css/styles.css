@@ -326,3 +326,57 @@ i {
 
 /* Night in the Museum */
 
+
+.night-section-wraper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.night-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.night-banner {
+  width: 80%; 
+  margin: 0 auto;
+}
+
+.night-banner > img {
+  width: 100%;
+  height: 600px;
+  margin: 35px 0;
+  /* margin: 0 auto; */
+}
+
+.night-header {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #E3BAC6;
+  padding: 2rem;
+  /* width: 100%; */
+}
+
+.night-images {
+  width: 50%;
+  /* height: 450px; */
+}
+
+.night {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.night p {
+  padding: 2rem;
+}
+
+.night:nth-child(even) {
+  flex-direction: row-reverse;
+}
