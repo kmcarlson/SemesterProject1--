@@ -222,6 +222,23 @@ i {
     width: 10rem;
 }
 
+input {
+  padding: 12px;
+  width: 30%; 
+}
+
+#message{
+  padding: 12px;
+  width: 30%; 
+  height: 10rem;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 /*events*/
 
