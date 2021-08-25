@@ -222,22 +222,24 @@ i {
     width: 10rem;
 }
 
-input {
+.contact > form > input {
   padding: 12px;
   width: 30%; 
+  border-radius: 5px;
+
 }
 
 #message{
   padding: 12px;
   width: 30%; 
   height: 10rem;
+  border-radius: 5px;
 }
 
-input[type=submit] {
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+
+
+.contact > h1 {
+  text-align: center;
 }
 
 /*events*/
