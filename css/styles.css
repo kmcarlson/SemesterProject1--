@@ -29,7 +29,6 @@ header {
   height: 5.5rem;
 }
 
-
 li {
   display: inline-block;
   margin: 1.5rem;
@@ -412,11 +411,9 @@ i {
   flex-direction: row-reverse;
 }
 
-
 /* mob tab */
 
 @media only screen and (max-width: 992px) {
- 
   .shortcut-section {
     flex-direction: column;
   }
@@ -429,13 +426,13 @@ i {
     justify-content: space-between;
   }
 
- .header-menu {
-   position: absolute;
-   top: 107px;
-   z-index: 1;
-   width: 100%;
-   display: none;
- }
+  .header-menu {
+    position: absolute;
+    top: 107px;
+    z-index: 1;
+    width: 100%;
+    display: none;
+  }
 
   #mobil-menu:checked ~ .header-menu {
     /* display: block; */
@@ -460,7 +457,6 @@ i {
   .contact-form {
     width: 100%;
   }
-
 
   .event-section {
     flex-direction: column;
@@ -504,5 +500,4 @@ i {
     width: 100%;
     align-items: center;
   }
-
 }
