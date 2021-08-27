@@ -58,15 +58,15 @@ li a:active {
 .shortcut-section {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  margin: 0 auto;
+  /* width: 80%; */
+  justify-content: space-evenly;
 }
 
 .shortcut {
   margin: 1rem;
   padding: 1rem;
-  width: 33%;
-  height: 500px;
+  /* width: 33%; */
+  /* height: 500px; */
 }
 
 .shortcut-images {
@@ -81,6 +81,12 @@ li a:active {
   font-size: 2rem;
 }
 
+.header-shortcut h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
 .slogan {
   text-align: center;
   font-size: 4rem;
@@ -91,13 +97,15 @@ li a:active {
   flex-direction: row;
   width: 80%;
   margin: 0 auto;
+  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .article {
   margin: 1rem;
   padding: 1rem;
   width: 25%;
-  height: 500px;
+  /* height: 500px; */
   margin-bottom: 100px;
 }
 
@@ -425,6 +433,15 @@ i {
 body {
   background: tomato;
 }
+
+.shortcut-section {
+  flex-direction: column;
+}
+
+.article-section {
+  flex-direction: column;
+}
+
 }
 
 /* tab */
