@@ -29,8 +29,20 @@ ul {
 li {
   display: inline-block;
   margin: 1.5rem;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   padding: 1rem;
+  background-color: #bc9ec1;
+  color: white;
+  font-weight: 700;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li a:active {
+  color: white;
 }
 
 #banner-container {
@@ -127,7 +139,7 @@ footer {
 }
 
 .footer-text {
-  color: #707070;
+  color: black;
 }
 
 i {
@@ -211,35 +223,43 @@ i {
     padding: 0 2rem;
 }
 
-.contact input, .contact textarea {
-    display: block;
-    margin: 1rem 0;
-    background-color: #E3BAC6;
-    border: 1px solid black;
-}
 
-#message {
-    width: 10rem;
-}
+.contact-form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+} 
 
-.contact > form > input {
-  padding: 12px;
-  width: 30%; 
+.contact-form > * {
+  margin: 0.5rem 0;
+  background-color: #E3BAC6;
+  border: 1px solid black;
+  padding: 0.8rem;
   border-radius: 5px;
+}
 
+::placeholder {
+  color: black;
 }
 
 #message{
-  padding: 12px;
-  width: 30%; 
   height: 10rem;
-  border-radius: 5px;
 }
-
-
 
 .contact > h1 {
   text-align: center;
+}
+
+#gmap_canvas {
+  min-width: 100%;
+} 
+
+
+.mapouter {
+  min-height: 20rem;
+  display: flex;
+  width: 100%;
+
 }
 
 /*events*/
@@ -398,4 +418,19 @@ i {
 
 .night:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+/* mobil */
+@media only screen and (max-width: 600px) {
+body {
+  background: tomato;
+}
+}
+
+/* tab */
+
+@media only screen and (min-width:600px) and (max-width: 992px) {
+body {
+  background: turquoise;
+}
 }
