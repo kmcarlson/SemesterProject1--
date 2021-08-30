@@ -93,6 +93,8 @@ li a:active {
   text-align: center;
   font-size: 2rem;
   margin: 0;
+  display: inline-block;
+  color: black;
 }
 
 .slogan {
@@ -173,6 +175,7 @@ i {
 
 #newsletter-button:hover {
   background-color: #596475;
+  color: white;
 }
 
 /*about*/
@@ -312,6 +315,11 @@ i {
   font-size: 1.5rem;
 }
 
+.load-more:hover{
+  background-color: #596475;
+  color: white;
+}
+
 /*kids*/
 
 .kids-section-wraper {
@@ -432,6 +440,11 @@ i {
     justify-content: space-between;
   }
 
+  #banner {
+    width: 100%;
+    height: 100%;
+  }
+
   .header-menu {
     position: absolute;
     top: 107px;
@@ -507,5 +520,13 @@ i {
     flex-direction: column;
     width: 100%;
     align-items: center;
+  }
+
+  .kids-banner > img {
+    height: 100%;
+  }
+
+  .night-banner > img {
+    height: 100%;
   }
 }
