@@ -529,4 +529,8 @@ i {
   .night-banner > img {
     height: 100%;
   }
+
+  .slogan {
+    font-size: 2.5rem;
+  }
 }
