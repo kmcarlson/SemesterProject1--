@@ -296,6 +296,8 @@ i {
   position: absolute;
   top: 0;
   padding: 0 10px;
+  color: white;
+  font-weight: 700;
 }
 
 .event-images {
