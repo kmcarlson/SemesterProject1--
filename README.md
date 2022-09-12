@@ -1,7 +1,7 @@
 # SemesterProject1
 
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://github.com/kmcarlson/SemesterProject1--/blob/535e4b1ccd82461cb19930ceaaef71fa2968c34a/images/Screenshot.png)
 
 A simple overview of the use/purpose of the project.
 
@@ -37,7 +37,7 @@ Open the
 index.HTML
 ```
 
-## Linked
+## Link
 
 ```bash
 https://nostalgic-albattani-033fc7.netlify.app/
