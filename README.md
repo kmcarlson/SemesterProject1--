@@ -1,5 +1,6 @@
 # SemesterProject1
 
+
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
 A simple overview of the use/purpose of the project.
@@ -34,6 +35,12 @@ gh repo clone kmcarlson/SemesterProject1--
 Open the 
 ```bash
 index.HTML
+```
+
+## Linked
+
+```bash
+https://nostalgic-albattani-033fc7.netlify.app/
 ```
 
 
